@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body{
     background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
     height: 100vh;
     width: 100vw;
     background-size: 100% 100%;
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 #astronaut-1{
@@ -29,4 +31,31 @@ body{
     50%{
         transform: translateY(30px);
     }
+}
+
+form{
+    position: absolute;
+    top: 15%;
+    left: 56%;
+    width: 450px ;
+    padding: 0 75px;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+}
+
+.display-block{
+    display: block;
+}
+
+label{
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+}
+
+h1{
+    font-size: 26px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto ;
 }
